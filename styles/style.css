@@ -1,0 +1,81 @@
+html{
+
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+img{
+    width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* menu */
+
+.header{
+    border-bottom: 1px solid black;
+    background-color: #c6b8b6;
+    
+}
+
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 0 20px;
+}
+
+/* контент */
+
+
+.top{
+    min-height: calc(100vh - 81px);
+    background-image: url(../img/fontop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+h1{
+    padding-top: 200px;
+    font-size: 80px;
+    font-weight: 900;
+    opacity: 0.6;
+}
+
+
+
